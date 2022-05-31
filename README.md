@@ -40,7 +40,6 @@ In order to start the system on your own Computer:
 8. Open the file basketball.scd inside the folder *SuperCollider*
 9.  In the .scd file run the main code section (MACOS: cmd+enter, Windows: ctrl+enter)
 10. Install the [Multisense OSC](https://play.google.com/store/apps/details?id=edu.polytechnique.multisense.release&hl=en_US&gl=US) application on a smartphone device. 
-11.  
 
 
 

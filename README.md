@@ -44,7 +44,7 @@ In order to enjoy the system as intended during the prototypation process:
 11. Build an arduino based system as specified by the [report]()
 12. Load on the arduino the firmware uploaded on the repository in the folder arduino, and update with your own specification for the NETWORK SSID, PASSWORD, IP address for the target PC, and input port.
 13. Setup the network access point with static addresses in order to facilitate the OSC communication system.
-14. In order to setup a proper audio analysis by Processing the
+14. In order to setup the proper audio analysis by Processing the system needs a *virtual audio cable* internal routing from SuperCollider to Processing: the outbus 0-1 from SuperCollider are used for piloting the loudspeaker. The outbus 2-3 are used as  feedback signals to Processing. This routing can be implemented with [VB cables](https://vb-audio.com/Cable/) on windows (NOT fully tested), or with an aggregate device on MACOS, exploiting [BlackHole](https://existential.audio/blackhole/) as virtual audio cable system.
 15. Find a basketball Player!!
 
 

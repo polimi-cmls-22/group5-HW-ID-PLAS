@@ -37,11 +37,11 @@ In order to enjoy the system as intended during the prototypation process:
    -  Sound
    -  OSCP5
    -  Supercollider
-7. Run the file clicking on the *PLAY BUTTON*, (MACOS: cmd+R, Windows: ctrl+R)
+7. Run the file clicking on the *PLAY BUTTON*, (MACOS: cmd+R, Windows: ctrl+R).
 8. Open the file basketball.scd inside the folder *SuperCollider*.
-9.  In the .scd file run the main code section (MACOS: cmd+enter, Windows: ctrl+enter)
+9.  In the .scd file run the main code section (MACOS: cmd+enter, Windows: ctrl+enter).
 10. Install the [Multisense OSC](https://play.google.com/store/apps/details?id=edu.polytechnique.multisense.release&hl=en_US&gl=US) application on a smartphone device. 
-11. Build an arduino based system as specified by the [report]()
+11. Build an arduino based system as specified by the [report]().
 12. Load on the arduino the firmware uploaded on the repository in the folder arduino, and update with your own specification for the NETWORK SSID, PASSWORD, IP address for the target PC, and input port.
 13. Setup the network access point with static addresses in order to facilitate the OSC communication system.
 14. In order to setup the proper audio analysis by Processing the system needs a *virtual audio cable* internal routing from SuperCollider to Processing: the outbus 0-1 from SuperCollider are used for piloting the loudspeaker. The outbus 2-3 are used as  feedback signals to Processing. This routing can be implemented with [VB cables](https://vb-audio.com/Cable/) on windows (NOT fully tested), or with an aggregate device on MACOS, exploiting [BlackHole](https://existential.audio/blackhole/) as virtual audio cable system.
@@ -52,15 +52,15 @@ In order to enjoy the system as intended during the prototypation process:
 ## Usage
 
 1. Start the Multisense App on the Smartphone and set the correct IP address and port for the PC used as central device.
-2. Position the shake sensor connected to the arduino on the dominant hand used by the player and Turn the Arduino on.  
-3. Launch Supercollider and Processing scripts. 
+2. Position the shake sensor connected to the arduino on the dominant hand used by the player and turn the Arduino on.  
+3. Launch the Supercollider and Processing scripts. 
 4. ENJOY!!
 
 ## Processing GUI
 
-The Processing allows the user control some parameters of the CMS in order to manipulate its behaviour.
+Processing allows the user control some parameters of the CMS in order to manipulate its behaviour.
 In particular the available parameters are: 
-1. TEMPO: used to speed-up or slow-down 
+1. TEMPO: used to speed-up or slow-down.
 2. ROOT NOTE: used to select the tonality of the generated music.
 
 ![](./gitAssets/mainwindow.jpg)
@@ -74,22 +74,22 @@ Choosing the "sensors" button allows to open the page where the values of the se
 ![](./gitAssets/senswindow.jpg)
 
 ## ARDUINO 
-The Arduino device is used to both transmit the data acquired by the shake sensor and to control the volume of the system 
+The Arduino device is used to both transmit the data acquired by the shake sensor and to control the volume of the system.
 
 ![](./gitAssets/ARDUINO.jpg)
 
-After some tests the best position used to mount the system resulted to be the one showed in the picture below.
+After some tests the best position used to mount the system turned out to be the one showed in the picture below.
 
 
-![](./gitAssets/guardaComeSonoFigo.jpg)
+![](./gitAssets/GuardaComeSonoFigo.jpg)
 
 ## Folder Structure
 
 The repository contains 4 principal folders:
 * "arduino" containing the Source code for arduino.
-* "Processing" containing the Source code for GUI.
-* "SuperCollider" containing the computer Music Engine.
-* "gitAssets" contains the images used in the report and in the README.
+* "Processing" containing the Source code for the GUI.
+* "SuperCollider" containing the Computer Music Engine.
+* "gitAssets" containing the images used in the report and in the README.
 
 
 ## Notes

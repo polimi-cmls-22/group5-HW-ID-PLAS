@@ -25,24 +25,27 @@ A complete description of the development of the system can be found in the [rep
 ## Getting Started
 
 
-In order to start the system on your own Computer:
-
-
+In order to enjoy the system as intended during the prototypation process:
 
 1. Download and install [SuperCollider](https://supercollider.github.io/).
 2. Download and install [Processing](https://processing.org/).
-3. Download and install [Arduino](https://www.arduino.cc/).
-4. Clone the repo.
-5. Open the file basketball.pde inside the folder *Processing* 
+3. Download and install [Arduino IDE](https://www.arduino.cc/).
+4. Clone the repository.
+5. Open the file basketball.pde inside the folder *Processing*.
 6. Make sure to have the following libraries installed (in Sketch > Import Libraries > Manage Libraries):
    -  ControlP5 
    -  Sound
    -  OSCP5
    -  Supercollider
 7. Run the file clicking on the *PLAY BUTTON*, (MACOS: cmd+R, Windows: ctrl+R)
-8. Open the file basketball.scd inside the folder *SuperCollider*
+8. Open the file basketball.scd inside the folder *SuperCollider*.
 9.  In the .scd file run the main code section (MACOS: cmd+enter, Windows: ctrl+enter)
 10. Install the [Multisense OSC](https://play.google.com/store/apps/details?id=edu.polytechnique.multisense.release&hl=en_US&gl=US) application on a smartphone device. 
+11. Build an arduino based system as specified by the [report]()
+12. Load on the arduino the firmware uploaded on the repository in the folder arduino, and update with your own specification for the NETWORK SSID, PASSWORD, IP address for the target PC, and input port.
+13. Setup the network access point with static addresses in order to facilitate the OSC communication system.
+14. In order to setup a proper audio analysis by Processing the
+15. Find a basketball Player!!
 
 
 

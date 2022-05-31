@@ -81,7 +81,7 @@ The Arduino device is used to both transmit the data acquired by the shake senso
 After some tests the best position used to mount the system resulted to be the one showed in the picture below.
 
 
-![](./gitAssets/guardaComeSonoFigo.jpg)
+![](./gitAssets/GuardaComeSonoFigo.jpg)
 
 ## Folder Structure
 

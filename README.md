@@ -12,7 +12,7 @@
   - [Processing GUI](#processing-gui)
   - [ARDUINO](#arduino)
   - [Folder Structure](#folder-structure)
-  - [Notes](#notes)
+  - [Video Presentation](#video-presentation)
   - [Components](#components)
 
 ## Project Description
@@ -91,9 +91,9 @@ The repository contains 4 principal folders:
 * "SuperCollider" containing the Computer Music Engine.
 * "gitAssets" containing the images used in the report and in the README.
 
+## Video Presentation
 
-## Notes
-
+[![Everything Is AWESOME](./gitAssets/Schermata%202022-06-06%20alle%2023.35.54.png)](https://youtu.be/4y_mnVhwyWs "Everything Is AWESOME")
 
 
 ## Components 

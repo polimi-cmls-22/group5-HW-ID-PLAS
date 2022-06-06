@@ -2,6 +2,7 @@
 if(s.hasBooted != true,{
 	Server.default.options.inDevice_("Dispositivo combinato");
 	Server.default.options.outDevice_("Dispositivo combinato");
+	Server.default.options.numOutputBusChannels = 4;
 	s.boot;
 	v = Volume.new(s,0,4);
 	"STARTING THE SERVER...".postln;

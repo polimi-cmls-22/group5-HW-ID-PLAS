@@ -58,7 +58,7 @@ Ball ball = new Ball();
 void setup() {
   Sound s = new Sound(this);
   Sound.list();
-  s.inputDevice(14);
+  s.inputDevice(16);
 
   fullScreen(P3D);
   //size(800, 600, P3D);

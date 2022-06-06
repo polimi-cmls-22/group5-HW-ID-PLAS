@@ -30,7 +30,7 @@ float pitch =1;
 float roll =1;
 float valToSendHistory = 1;
 
-
+float maxAccMag = 0;
 
 /* acceleration magnitude handling components */
 float accX=0;
@@ -197,7 +197,10 @@ void setAccMag(float x, float y, float z) {
     accMag += accMagList.get(i);
   }
   accMag /= accMagList.size();
-  accData = -map(pow(accMag, 2), 0, pow(22, 2), 0, sens2.getHeight());
+  if(accMag > maxAccMag) {
+    maxAccMag = accMag;
+  }
+  accData = -map(pow(accMag, 2), 0, pow(maxAccMag, 2), 0, sens2.getHeight());
   if (accMag>10 && accMag<12) {
     //ball.setSpeed(1);
     valueToSend = 0.0;
